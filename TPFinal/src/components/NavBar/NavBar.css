@@ -67,6 +67,7 @@ h3{
 }
 .menu i{
     color: #C3CAD9;
+    font-size: 1.2rem;
 }
 .menu .searchIcon{
     display: none;
@@ -84,21 +85,21 @@ h3{
 
 
 @media screen and (max-width: 1000px){
-
-
-
+html{
+    font-size: 0.9rem;
+}
 .menu .searchIcon{
     display: flex;
-
 }
 .searchInput{
     display: none;
 }
-
 }
 
 @media screen and (max-width: 650px){
-
+html{
+    font-size: 0.85rem;
+}
 .brand h3{
     display: none;
 }
