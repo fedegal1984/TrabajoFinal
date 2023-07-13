@@ -17,9 +17,9 @@ const NavBar = () => {
           </div>
           <div className='menu'>
             <h4>Contact</h4>
-            <i className="bi bi-house-door-fill"></i>
+            <NavLink to="/"><i className="bi bi-house-door-fill"></i></NavLink>
             <i className="bi bi-search searchIcon" ></i>
-            <i className="bi bi-cart-fill"></i>
+            <NavLink to="/cart"><i className="bi bi-cart-fill"></i></NavLink>
           </div>
       </div>
     </nav>
