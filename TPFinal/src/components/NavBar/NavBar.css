@@ -33,6 +33,7 @@ h3{
     position: absolute;
     color: #C3CAD9;
     left: 5px;
+    top: 6px;
     background-color: transparent;
 }
 .searchInput input{

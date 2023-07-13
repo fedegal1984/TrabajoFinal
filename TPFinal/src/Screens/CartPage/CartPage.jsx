@@ -1,17 +1,26 @@
 import React from 'react'
 import { useCustomContext } from '../../ContextManager/ContextProvider'
-import { ProductCard } from '../../components'
+import { ProductCard, ProductCartCard } from '../../components'
 
 const CartPage = () => {
-    const {cart} = useCustomContext()
-    console.log(cart)
+    const {cart, getTotal} = useCustomContext()
+    console.log(getTotal())
   return (
     <div>
-        Cart Page
+        {cart.length > 0 ?
+        <>
         <div>
             {cart.map(product =>(
-                <ProductCard producto={product} key={product.id}></ProductCard>
+                <ProductCartCard producto={product} key={product.id}></ProductCartCard>
             ))}
+        </div>
+        </>
+        :
+        <h1>No has comprado nada aún</h1>
+        }
+        
+        <div>
+            Total: ${getTotal()}
         </div>
     </div>
   )
