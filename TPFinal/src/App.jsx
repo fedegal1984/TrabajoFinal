@@ -15,7 +15,6 @@ const App = () =>{
       <Route path= "/cart" element={<CartPage/>}/>
       <Route path= "/contact" element={<ContactPage/>}/>
     </Routes>
-    <Footer></Footer>
     </>
   )
 }

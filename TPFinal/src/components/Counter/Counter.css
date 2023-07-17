@@ -1,0 +1,62 @@
+.counter{
+    display: flex;
+    align-items: center;
+}
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    gap: 10px;
+}
+.counter h3{
+    padding-right: 20px;
+    color: #7D8FB3;
+}
+button{
+    background-color: #4A55A2;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 8px;
+    width: 30px;
+    box-shadow: 0 3px 5px 1px rgba(128, 128, 128, 0.171);
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow: 3px 3px 5px 0 rgba(122, 122, 122, 0.521);
+    color: rgb(236, 235, 235);
+}
+
+.btn-confirmar{
+    display: flex;
+    width: 289px;
+    height: 48px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+span{
+    font-size: 1.3rem;
+    margin: 0 10px;
+    color: #7D8FB3;
+}
+
+@media screen and (max-width: 1000px){
+    button{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width:650px){
+    button{
+        font-size: 0.8rem;
+    }
+    .btn-confirmar{
+        width: 180px;
+    }
+}

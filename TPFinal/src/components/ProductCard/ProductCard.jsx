@@ -1,13 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./ProductCard.css"
 
 const ProductCard = ({producto}) => {
   return (
-    <div>
-        <h2>{producto.nombre}</h2>
-        <h3>Precio: ${producto.precio}</h3>
-        <Link to={"/detail/" + producto.id}>Details</Link>
+    <Link to={"/detail/" + producto.id} style={{textDecoration:"none"}}>
+    <div className='productCard-container'>
+        <img src={producto.imagen} alt="" />
+        <h3>{producto.nombre}</h3>
+        <h4>Precio: ${producto.precio}</h4>
     </div>
+    </Link>
   )
 }
 

@@ -17,8 +17,8 @@ const ContextProvider = ({children}) => {
             precio: 274999,
             id: 2,
             stock: 12,
-            descripcion: "Fotografía profesional en tu bolsillo Descubre infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Pon a prueba tu creatividad y juega con la iluminación, diferentes planos y efectos para obtener grandes resultados. Perfecta para los amantes del plano detalle. Su zoom óptico te ofrecerá la posibilidad de realizar acercamientos sin que tus capturas pierdan calidad.",
-            imagen: "https://images.samsung.com/is/image/samsung/p6pim/ar/sm-g990ezaaaro/gallery/ar-galaxy-s21-fe-g990-408811-sm-g990ezaaaro-530832016"
+            descripcion: "Fotografía profesional en tu bolsillo. Descubre infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo. Pon a prueba tu creatividad y juega con la iluminación, diferentes planos y efectos para obtener grandes resultados. Perfecta para los amantes del plano detalle. Su zoom óptico te ofrecerá la posibilidad de realizar acercamientos sin que tus capturas pierdan calidad.",
+            imagen: "https://media.flixcar.com/f360cdn/Samsung-98596297-ar-galaxy-s21-fe-g990-408811-sm-g990elvaaro-530831985Download-Source-zoom.png"
         },
         {
             nombre: "Monitor LG UltraWide 26WQ500 LCD 25.7",
@@ -114,10 +114,10 @@ const ContextProvider = ({children}) => {
             id: 14,
             stock: 19,
             descripcion: "El HyperX Alloy FPS Pro es para el jugador FPS que desea un teclado sin tenkey (TKL) fiable y preciso que le permita aumentar su espacio del escritorio. Este teclado de 87 teclas proporciona todo lo que un jugador profesional necesita, pero sin el teclado numérico.",
-            imagen: "https://media.solotodo.com/media/products/822679_picture_1538897604.jpg"
+            imagen: "https://pcexpress.pe/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/t/2/t2.jpg"
         },
         {
-            nombre: "Mouse inalámbrico Logitech Serie G Lightspeed G305 black",
+            nombre: "Mouse inalámbrico Logitech Serie G Lightspeed",
             precio: 25999,
             id: 15,
             stock: 29,

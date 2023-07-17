@@ -92,6 +92,9 @@ html{
 .menu .searchIcon{
     display: flex;
 }
+.NavBarContainer{
+    height: 80px;
+}
 .searchInput{
     display: none;
 }
@@ -106,7 +109,7 @@ html{
 }
 .NavBarContainer{
     display: flex;
-    height: 90px;
+    height: 70px;
     padding: 0px 30px;
     justify-content: space-between;
     align-items: center;

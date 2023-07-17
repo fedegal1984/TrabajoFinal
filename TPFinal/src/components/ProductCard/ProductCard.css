@@ -1,0 +1,34 @@
+.productCard-container{
+    display: flex; 
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(156, 156, 156, 0.253);
+    transition: box-shadow 0.3s ease;
+}
+.productCard-container:hover{
+    box-shadow: 3px 3px 5px 0 rgba(156, 156, 156, 0.288);
+    
+}
+
+.productCard-container h3{
+    color: var(--color-titulos-principales);
+    background-color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.productCard-container h4{
+    color: var(--color-precios);
+    background-color: white;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.productCard-container img{
+    height: 150px;
+    background-color: white;
+}
