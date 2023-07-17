@@ -19,7 +19,7 @@ const NavBar = () => {
             <i className="bi bi-search"></i>
           </div>
           <div className='menu'>
-            <NavLink to="/contact"><h4>Contact</h4></NavLink>
+            <NavLink to="/contact" style={{textDecoration:"none"}} style={{ color: '#6B7A99' }}><h4>Contact</h4></NavLink>
             <NavLink to="/"><i className="bi bi-house-door-fill"></i></NavLink>
             <i className="bi bi-search searchIcon" ></i>
             <NavLink to="/cart"><i className="bi bi-cart-fill"></i></NavLink>

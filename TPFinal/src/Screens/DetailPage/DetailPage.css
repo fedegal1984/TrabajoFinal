@@ -17,14 +17,14 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
-    width: 50vw;
+    width: 35vw;
     border-radius: 10px;
     box-shadow: 0 2px 5px 0 rgba(156, 156, 156, 0.253);
     padding: 10px 20px;
     
 }
 .imagen-precio img{
-    width: 40vw;
+    width: 25vw;
     background-color: white;
 }
 .imagen-precio h2{

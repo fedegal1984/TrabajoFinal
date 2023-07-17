@@ -1,0 +1,18 @@
+:root{
+    --color-fondo: #F7F8FA;
+    --color-titulos-principales: #4D5E80;    
+    --color-titulos-superiores: #7D8FB3;
+    --color-precios: #6B7A99;
+  }
+
+.productCard-container h2{
+    background-color: white;
+    color: var(--color-titulos-principales);
+}
+.productCard-container p{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--color-titulos-superiores);
+}

@@ -1,11 +1,12 @@
 import React from 'react'
+import "./ProductCartCard.css"
 
 const ProductCartCard = ({producto}) => {
   return (
-    <div>
+    <div className='productCard-container'>
         <h2>{producto.nombre}</h2>
+        <img src={producto.imagen} alt="" />
         <h3>Precio: ${producto.precio}</h3>
-        <p>Descripción: {producto.descripcion}</p>
         <p>Cantidad: {producto.quantity}</p>
     </div>
   )

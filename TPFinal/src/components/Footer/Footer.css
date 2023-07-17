@@ -31,10 +31,11 @@ footer h3{
     color: var(--color-titulos-principales);
     font-weight: 700;
 }
-span{
+.span-adress{
     font-size: 0.9rem;
     color: #ADB8CC;
     font-weight: 700;
+    margin: 0;
 }
 ul{
     list-style: none;
@@ -59,7 +60,7 @@ li{
     font-weight: 700;
     
 }
-.terms p{
+.terms h5{
     padding: 10px 0;
 }
 .terms a:hover{

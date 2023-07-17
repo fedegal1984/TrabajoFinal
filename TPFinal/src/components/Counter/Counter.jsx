@@ -7,7 +7,7 @@ const Counter = ({initialValue, stock, id}) => {
     const [quantity, setQuantity] = useState(initialValue)
     const onClickAddProduct = () => {
         addProductCart(id, quantity)
-        Swal.fire('Se añadió correctamente el producto')
+        alert('Se añadió correctamente el producto')
         }
 
     return (
