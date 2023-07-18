@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Footer, NavBar, ProductCard } from './components'
+import { Footer, Form, NavBar, ProductCard } from './components'
 import { useCustomContext } from './ContextManager/ContextProvider'
 import { CartPage, ContactPage, DetailPage, HomePage } from './Screens'
 import { Route, Routes } from 'react-router-dom'
