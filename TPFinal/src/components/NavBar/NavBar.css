@@ -22,6 +22,10 @@ h3{
 .brand{
     display: flex;
     gap: 30px;
+    align-items: center;
+}
+.brand img{
+    width: 60px;
 }
 
 .searchInput{

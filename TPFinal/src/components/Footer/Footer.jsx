@@ -7,44 +7,43 @@ const Footer = () => {
     <footer>
         <div className='adress'>
             <h3>Constructor</h3>
-            <span className='span-adress'>12 Water St. Vacouver, BC<br /><br />V6B 132 United States</span>
+            <span className='span-adress'>Av. Medrano 951, Caba<br /><br />Argentina</span>
         </div>
         <div className='linksContainer'>
             <div>
                 <ul>
-                    <li><NavLink to="">Corporate sales</NavLink></li>
+                    <li><NavLink to="">Ventas coorporativas</NavLink></li>
                     <li><NavLink to="">Feedback</NavLink></li>
-                    <li><NavLink to="">Jobs</NavLink></li>
-                    <li><NavLink to="">News</NavLink></li>
-                    <li><NavLink to="">Sales Rules</NavLink></li>
-                    <li><NavLink to="">For partners</NavLink></li>
+                    <li><NavLink to="">Trabajos</NavLink></li>
+                    <li><NavLink to="">Noticias</NavLink></li>
+                    <li><NavLink to="">Reglas</NavLink></li>
+                    <li><NavLink to="">Partners</NavLink></li>
                 </ul>
             </div>
             <div>
                 <ul>
-                    <li><NavLink to="">Bonus programs</NavLink></li>
-                    <li><NavLink to="">Gift Cards</NavLink></li>
-                    <li><NavLink to="">Bill Payment Verification</NavLink></li>
-                    <li><NavLink to="">Loans</NavLink></li>
-                    <li><NavLink to="">Delivery</NavLink></li>
-                    <li><NavLink to="">Service centers</NavLink></li>
+                    <li><NavLink to="https://www.instagram.com/"><i className="bi bi-instagram"></i></NavLink></li>
+                    <li><NavLink to="https://www.facebook.com/"><i className="bi bi-facebook"></i></NavLink></li>
+                    <li><NavLink to="https://www.whatsapp.com/"><i className="bi bi-whatsapp"></i></NavLink></li>
+                    <li><NavLink to="https://www.linkedin.com/"><i className="bi bi-linkedin"></i></NavLink></li>
+                    <li><NavLink to="https://www.youtube.com/"><i className="bi bi-youtube"></i></NavLink></li>
                 </ul>
             </div>
             <div className='ocultar'>
                 <ul>
-                    <li><NavLink to="">How to place an order</NavLink></li>
-                    <li><NavLink to="">Ways of payment</NavLink></li>
-                    <li><NavLink to="">Exchange and return of goods</NavLink></li>
-                    <li><NavLink to="">Warranty service</NavLink></li>
-                    <li><NavLink to="">Order Status</NavLink></li>
-                    <li><NavLink to="">Knowledge base</NavLink></li>
+                    <li><NavLink to="">¿Cómo comprar?</NavLink></li>
+                    <li><NavLink to="">Medios de pago</NavLink></li>
+                    <li><NavLink to="">Entregas y reembolsos</NavLink></li>
+                    <li><NavLink to="">Servicios de garantía</NavLink></li>
+                    <li><NavLink to="">Seguimiento de envíos</NavLink></li>
+                    <li><NavLink to="">Base de datos</NavLink></li>
                 </ul>
             </div>
         </div>
         <div className='terms'>
-            <h5>2030 Comapny. All Rights Reserved.</h5>
-            <p><NavLink to="">Terms & Conditions</NavLink></p>
-            <p><NavLink to="">Privacy Policy</NavLink></p>
+            <h5>2030 Todos los derechos reservados.</h5>
+            <p><NavLink to="">Términos y condiciones</NavLink></p>
+            <p><NavLink to="">Política de privacidad</NavLink></p>
         </div>
     </footer>
   )
