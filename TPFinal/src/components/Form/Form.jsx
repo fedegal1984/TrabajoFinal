@@ -34,7 +34,7 @@ const Form = () => {
             <label htmlFor="email">Ingrese su mail:*</label>
             <input type="email" placeholder="xxxx@xxxx.com" name="email" id='email' onChange={handleChangeRegisterUser} value={formUserData.email}/>
             <label htmlFor="mensaje">Mensaje:*</label>
-            <input type="text" placeholder='Ingrese su mensaje' name="mensaje" id='mensaje' onChange={handleChangeRegisterUser} value={formUserData.mensaje}/>
+            <textarea rows="8" type="text" placeholder='Ingrese su mensaje' name="mensaje" id='mensaje' onChange={handleChangeRegisterUser} value={formUserData.mensaje}/>
             <button type='submit'>Enviar</button>
         </form>
         {  

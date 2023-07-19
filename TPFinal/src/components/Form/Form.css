@@ -20,7 +20,7 @@
     border: none;
     border-radius: 30px;
     background-color: #FFF;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.08);
     height: 30px;
     width: 25vw;
     color: #ADB8CC;
@@ -47,6 +47,29 @@
     line-height: normal;
     background-color: white;
 }
+textarea{
+    border: none;
+    border-radius: 30px;
+    background-color: #FFF;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.08);
+    color: #ADB8CC;
+    width: 25vw;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+textarea:focus{
+    border: 1px solid #ADB8CC;
+    outline: none;
+    color: #7b98ce;
+    padding-top: 10px;
+}
+textarea::placeholder{
+    font-size: 12px;
+    color: #ADB8CC;
+    font-weight: 700;
+    padding-top: 10px;
+}
 
 .formularioUsuario button{
     display: flex;
@@ -58,6 +81,7 @@
     border-radius: 8px;
     font-size: 1.3rem;
 }
+
 .personalData{
     display: flex;
     flex-direction: column;
@@ -70,4 +94,20 @@
 }
 .personalData i{
     color: blue;
+}
+
+@media screen and (max-width:1000px) {
+    .formularioUsuario{
+        width: 75vw;
+    }
+    .formularioUsuario button{
+        margin-top: 20px;
+        width: 180px;
+    }
+    .formularioUsuario input{
+        width: 55vw;
+    }
+    .formularioUsuario textarea{
+        width: 55vw;
+    }
 }
