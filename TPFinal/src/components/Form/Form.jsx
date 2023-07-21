@@ -6,6 +6,7 @@ const Form = () => {
     const [formUserData, setFormUserData] = useState({
         nombre:"",
         email:"", 
+        asunto:"",
         mensaje:""
     })
     const [showPersonalData, setShowPersonalData] = useState(false)
@@ -16,7 +17,8 @@ const Form = () => {
         setUserData(formUserData)
         setFormUserData({
         nombre:"",
-        email:"", 
+        email:"",
+        asunto:"", 
         mensaje:""})
         
     }
@@ -30,11 +32,13 @@ const Form = () => {
         <form onSubmit={handleRegisterUser} className='formularioUsuario'>
             <h3>Contacto</h3>
             <label htmlFor="nombreCompleto">Nombre Completo:*</label>
-            <input type="text" placeholder='Ingrese el nombre y apellido' name="nombre" id='nombre' onChange={handleChangeRegisterUser} value={formUserData.nombre}/>
+            <input type="text" placeholder='Ingrese el nombre y apellido' name="nombre" id='nombre' onChange={handleChangeRegisterUser} value={formUserData.nombre} required/>
             <label htmlFor="email">Ingrese su mail:*</label>
-            <input type="email" placeholder="xxxx@xxxx.com" name="email" id='email' onChange={handleChangeRegisterUser} value={formUserData.email}/>
+            <input type="email" placeholder="xxxx@xxxx.com" name="email" id='email' onChange={handleChangeRegisterUser} value={formUserData.email} required/>
+            <label htmlFor="asunto">Asunto:*</label>
+            <input type="text" placeholder='Asunto' name="asunto" id='asunto' onChange={handleChangeRegisterUser} value={formUserData.asunto} required/>
             <label htmlFor="mensaje">Mensaje:*</label>
-            <textarea rows="8" type="text" placeholder='Ingrese su mensaje' name="mensaje" id='mensaje' onChange={handleChangeRegisterUser} value={formUserData.mensaje}/>
+            <textarea rows="8" type="text" placeholder='Ingrese su mensaje' name="mensaje" id='mensaje' onChange={handleChangeRegisterUser} value={formUserData.mensaje} required/>
             <button type='submit'>Enviar</button>
         </form>
         {  
